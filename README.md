@@ -2,7 +2,8 @@
 
 > 📌 **Project Documentation & Workflow**  
 > To view the complete step-by-step code execution, SQL views, audit conditions, and risk modeling logic, access the full PDF document:  
-> 📄 [**Read the Foreign Exchange Project Workflow (PDF)**]()
+> 📄 [FX_Revenue_Risk_Analysis.pdf](https://github.com/user-attachments/files/30476406/FX_Revenue_Risk_Analysis.pdf)
+
 
 ---
 
