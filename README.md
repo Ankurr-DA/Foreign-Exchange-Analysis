@@ -7,7 +7,7 @@
 ---
 
 ## Project Overview
-This end-to-end foreign exchange data project transforms raw international payment records and exchange rates into structured Excel risk reports and an executive risk dashboard. The objective of this analysis is to monitor global currency corridor performance, track cross-border fee revenue, and flag operational failures to calculate fee revenue at risk.
+This end-to-end foreign exchange data & risk analysis project transforms raw international payment records and exchange rates into structured Excel risk reports and an executive risk dashboard. The objective of this analysis is to monitor global currency corridor performance, track cross-border fee revenue, and flag operational failures to calculate fee revenue at risk.
 
 ## Data Pipeline & Architecture
 The project follows a structured ETL (Extract, Transform, Load) pipeline:  
@@ -43,14 +43,14 @@ Interactive dashboard displaying key financial metrics: **$4.20M** total circula
 
 ## Repository Structure
 * `Foreign_Exchange_Project_Workflow.pdf`: Full project documentation, SQL scripts, and Python transformation logic.
+* `fx_rates.csv`: Raw exchange rate market data.
+* `international_payments.csv`: Raw cross-border transaction logs.
+* `payment_status.csv`: Raw delivery time and failure log dataset.
 * `data_transfer2.py`: Python script loading CSV files into MySQL.
 * `SQL_Analytics2.sql`: Audit queries, data cleanliness checks, and view definitions.
 * `python_analytics2.py`: Data cleaning script, audit classification logic, and report exports.
 * `Final_Operational_Failure.xlsx`: Generated operational failure and risk report export.
 * `Final_FX_Corridor.xlsx`: Generated currency corridor performance export.
-* `fx_rates.csv`: Raw exchange rate market data.
-* `international_payments.csv`: Raw cross-border transaction logs.
-* `payment_status.csv`: Raw delivery time and failure log dataset.
 
 ## Technologies Used
 * **Languages:** Python (`pandas`, `sqlalchemy`, `numpy`), SQL
