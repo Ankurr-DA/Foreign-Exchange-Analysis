@@ -27,17 +27,23 @@ The project follows a structured ETL (Extract, Transform, Load) pipeline:
 
 ### 1. Operational Failure Report
 Evaluates unresolved transactions across audit failure categories (Missing Rate & Pair, Missing Status, Missing Financials, and Missing Delivery Time), calculating total financial exposure and fee at risk.  
-![Operational Failure Report]()
+
+<img width="892" height="204" alt="image" src="https://github.com/user-attachments/assets/32c9e852-c040-4f89-a29f-129f60252c62" />
+
 
 ### 2. FX Corridor Report
-Tracks global payment corridors (e.g., USD/GBP, USD/EUR, EUR/GBP), analyzing total fee generation, amount circulated, average transfer delivery hours, and sender market concentration.  
-![FX Corridor Report]()
+Tracks global payment corridors (e.g., USD/GBP, USD/EUR, EUR/GBP), analyzing total fee generation, amount circulated, average transfer delivery hours, and sender market concentration.
+
+<img width="876" height="254" alt="image" src="https://github.com/user-attachments/assets/3df3b7bc-c4e4-42ed-bf40-634d392f7521" />
+
 
 ---
 
 ### 3. Live Tableau Executive Dashboard
-Interactive dashboard displaying key financial metrics: **$4.20M** total circulated amount, **$73K** fee revenue generated, **508** unresolved transactions, **$571K** unresolved amount, and **$9,259** total fee revenue at risk. Features breakdown charts for currency pair volumes, issue impacts, country fee contributions, and fee at risk per audit status.  
-![Foreign Exchange Revenue & Risk Dashboard](Dashboard_image.jpg)
+Interactive dashboard displaying key financial metrics: **$4.20M** total circulated amount, **$73K** fee revenue generated, **508** unresolved transactions, **$571K** unresolved amount, and **$9,259** total fee revenue at risk. Features breakdown charts for currency pair volumes, issue impacts, country fee contributions, and fee at risk per audit status.
+
+<img width="1299" height="884" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/91c45aeb-3627-4926-9fac-3495a25d9893" />
+
 
 ---
 
@@ -55,5 +61,5 @@ Interactive dashboard displaying key financial metrics: **$4.20M** total circula
 ## Technologies Used
 * **Languages:** Python (`pandas`, `sqlalchemy`, `numpy`), SQL
 * **Database:** MySQL
-* **Reporting & Viz:** Excel, Tableau, Matplotlib
+* **Reporting & Viz:** Excel, Tableau
 * **Environment:** VS Code
