@@ -42,7 +42,7 @@ Tracks global payment corridors (e.g., USD/GBP, USD/EUR, EUR/GBP), analyzing tot
 
 ### 3. Live Tableau Executive Dashboard
 Interactive dashboard displaying key financial metrics: **4.20M** total circulated amount, **73K** fee revenue generated, **508** unresolved transactions, **571K** unresolved amount, and **9,259** total fee revenue at risk. Features breakdown charts for currency pair volumes, issue impacts, country fee contributions, and fee at risk per audit status.
-
+> 📄 [**Tableau Dashboard Direct Link**](https://public.tableau.com/views/ForeignExchangeAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 <img width="1299" height="884" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/91c45aeb-3627-4926-9fac-3495a25d9893" />
 
 
